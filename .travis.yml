@@ -1,6 +1,9 @@
 language: python
 python:
   - "3.4"
+
+before_install:
+  - export DJANGO_SETTINGS_MODULE=webserver.webserver.settings
 # command to install dependencies
 install:
   - pip install -r requirements.txt
