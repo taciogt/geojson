@@ -6,6 +6,6 @@ def hello():
 
 
 def read_data():
-    with open("pdvs.json") as f:
+    with open("./core/pdvs.json") as f:
         pdvs = json.load(f)
     return pdvs
