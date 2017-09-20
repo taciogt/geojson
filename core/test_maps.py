@@ -17,6 +17,6 @@ def test_dumb():
 
 def test_read_json():
     pdvs = read_data()['pdvs']
-    assert len(pdvs) == 51
+    assert len(pdvs) == 2
     pprint.pprint(pdvs[0], indent=2)
 
